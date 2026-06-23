@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="184D790B-EC28-4642-E482-71F871FB532E" name="VET_CLIENTES">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:19:32 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cli_cedula" id="8768CB3F-68B1-72AE-FB77-391260B09157">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:19:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cedula del cliente]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_nombre" id="B85BBB6A-79C0-4A2E-A18E-535CD7B14C7F">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:20:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[2 Nombres del cliente]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_apellido" id="93D52E57-DD42-2114-6570-A5C1185E307F">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:21:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[2 Apellidos del cliente]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_direccion" id="01CADF65-F075-FA88-0B51-B97DA3ED11AE">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:21:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Direccion del cliente]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_telefono" id="A685361E-6499-BFFD-9E25-A3421419E0D6">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:21:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefono del cliente]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_correo" id="AFA438A9-88F8-9BE1-AECD-0C0F2F1995F5">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:22:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Correo electronico del cliente]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_estado" id="BE1C2EAF-99F9-B45C-556C-C63973682144">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:22:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si es activo, N si es eliminado o desactivado]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A032A383-9044-0EFD-1860-5C376710F5AB" name="VET_CLIENTES PK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:19:59 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8768CB3F-68B1-72AE-FB77-391260B09157</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

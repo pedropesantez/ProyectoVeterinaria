@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D7AC3FD-E6F7-DBB3-0855-12259200486B" name="VET_DETALLE_FACTURAS">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:47:08 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="det_fac_codigo" id="3AC5AD84-EB09-594F-8A87-5E0AE341944A">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:47:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico del detalle de factura]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="det_fac_cantidad" id="74DD9A4E-3D04-BCC9-B304-5D53C9E58A9B">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:47:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cantidad del servicio]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="det_fac_precio_unitario" id="CD4DB189-F4DE-890F-54AD-52DD1F9F14B3">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:48:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Precio unitario del servicio]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="det_fac_subtotal" id="0265C310-550A-48BC-A927-736CA6418821">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:49:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Subtotal sin impuestos]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="det_fac_valor_iva" id="9D78881C-0A14-CDB8-1DFA-4BE6FFB0FD87">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:50:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor del impuesto]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="det_fac_total" id="D26BB19A-67E1-90C0-1315-3713EC8CA6E6">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:52:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Subtotal mas el valor del iva]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cab_fac_codigo" id="0F29410F-F053-8C6E-F176-876D1EB4E57D">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 08:07:22 UTC</createdTime>
+<generatorID>641D9DEB-11A2-AF45-8CCA-AD667DA6E9C8</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<referedAttribute>F80BB0A9-D25E-8EC3-72BF-FA40D1481584</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ser_codigo" id="67B782A3-3531-6896-895B-C7B680C2A6BE">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 08:08:12 UTC</createdTime>
+<generatorID>273CFE23-8EEA-9215-0C81-5C46068A6071</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<referedAttribute>BFB55546-0020-C6DF-9A9B-084AEE93BFC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="97891D74-DDFB-6ACE-371F-CB090EB60529" name="VET_DETALLE_FACTURAS PK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:47:50 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3AC5AD84-EB09-594F-8A87-5E0AE341944A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B39E899A-8BE9-7F2F-8B8C-F4FDFF07A0F4" name="VET_USUARIOS">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:34:52 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="us_codigo" id="192C63C0-B169-F156-CCDF-084BC12FF6B5">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:35:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo del usuario]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="us_nombre" id="DB66AA41-351F-7404-4089-43FC0CE4AB95">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:35:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del usuario]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="us_contrasena" id="5E32EE53-2B41-A320-F76C-980DED54E28F">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:36:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contrasenia del usuario]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="us_rol" id="3DF1F9BA-8F54-A7A6-5E4F-E97BA51563C9">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:36:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[A por ardministrador o E por empleado]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="us_estado" id="EB6E685A-92F8-F6B6-9F83-46C979E4B3CD">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:37:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[S para activo y N para elmininado o desactivado]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_cedula" id="00FBF1B5-45EB-AA0E-20AA-279008838169">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 08:09:52 UTC</createdTime>
+<generatorID>63E816C0-C979-C9BF-00C1-20E5512B4BEA</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<referedAttribute>996A395C-F96C-5E81-69FA-1BBFFABCD69C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FE89C55-10F8-9B18-EC4E-6F2439837E5B" name="VET_USUARIOS PK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:35:31 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>192C63C0-B169-F156-CCDF-084BC12FF6B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C9ED59D-748C-4632-5202-98A53AFAC431" name="VET_TIPO_MASCOTAS">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:25:48 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tip_mas_codigo" id="5AC8FB2D-80A9-6099-1F07-2C6E25974D7F">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:25:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico del tipo de mascota]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_mas_nombre" id="F2F4809F-4F0E-768B-7613-B82A0B8145EB">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:26:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del tipo de mascota (Gato, perro, etc)]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E75C458-02BB-C9F1-4B44-E487018FF03D" name="VET_TIPO_MASCOTAS PK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:26:12 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5AC8FB2D-80A9-6099-1F07-2C6E25974D7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

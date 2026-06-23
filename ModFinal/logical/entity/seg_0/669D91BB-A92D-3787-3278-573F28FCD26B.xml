@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="669D91BB-A92D-3787-3278-573F28FCD26B" name="VET_CABECERA_FACTURAS">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:43:19 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cab_fac_fecha_emision" id="9CDBC96E-DB19-51FF-EDB9-18C24D4EB70D">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:43:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha y hora de la factura]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cab_fac_codigo" id="F80BB0A9-D25E-8EC3-72BF-FA40D1481584">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:45:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico de la factura]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cab_fac_subtotal" id="31275892-FA27-38FF-D221-C70E852DA1BC">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:45:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Subtotal antes de los impuestos]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cab_fac_total_IVA" id="4F59C1C2-36C4-D04B-0429-42A4DF6BA5ED">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:46:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Total de impuestos]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cab_fac_total" id="9BAA1976-C5B7-B914-BD35-62105E4E6BFC">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:46:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Suma total a pagar]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_cedula" id="071D92AE-63D0-341D-4AB1-404B57328956">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 08:05:47 UTC</createdTime>
+<generatorID>1C51C932-3CC8-8993-8466-A280967A8D63</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<referedAttribute>8768CB3F-68B1-72AE-FB77-391260B09157</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="us_codigo" id="83982DFF-68DF-63D7-9D5F-1314AC5F6FC6">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 08:06:38 UTC</createdTime>
+<generatorID>82E53948-2D9F-2DFF-2665-9DD966E76E0E</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<referedAttribute>192C63C0-B169-F156-CCDF-084BC12FF6B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="082A70EA-6A0F-6A1A-CBF7-607D1C1A461D" name="VET_CABECERA_FACTURAS PK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:45:23 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F80BB0A9-D25E-8EC3-72BF-FA40D1481584</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

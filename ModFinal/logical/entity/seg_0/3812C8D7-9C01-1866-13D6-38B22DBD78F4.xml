@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3812C8D7-9C01-1866-13D6-38B22DBD78F4" name="VET_EMPLEADOS">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:29:15 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="emp_cedula" id="996A395C-F96C-5E81-69FA-1BBFFABCD69C">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:29:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cedula del empleado]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_nombre" id="96B5459D-9B72-D7FF-374E-6647A5707D1F">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:29:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[2 Nombres del empleado]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_apellido" id="15BE7D1A-CBC7-F8EE-7B18-D59155048369">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:32:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[2 Apellidos del empleado]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_direccion" id="16451A13-020A-0D64-4E32-98209C3C7C49">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:32:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Direccion del empleado]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_telefono" id="7194E3BF-BCF9-C08C-E77E-B9C08FE95518">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:33:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefono del empleado]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_correo" id="87FE68ED-1336-3CBC-3F43-198DDC3E93B0">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:33:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Correo del empleado]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_tipo_empleado" id="0DC07A0C-55EA-ADF8-6776-2DE884FF73F7">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:33:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[V por veterinario o A por atencion al cliente]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_estado" id="AA1D64D3-5F10-1C55-51F8-5C7D618586A6">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:34:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[S para activo o N para eliminado o desactivado]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="us_codigo" id="96FCB6EB-1DB6-40A3-8F1A-92FA4DD2DF68">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 08:10:06 UTC</createdTime>
+<generatorID>63E816C0-C979-C9BF-00C1-20E5512B4BEA</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<referedAttribute>192C63C0-B169-F156-CCDF-084BC12FF6B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A12ACE0B-CED5-AD0D-4537-F2FD71A4493B" name="VET_EMPLEADOS PK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:29:34 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>996A395C-F96C-5E81-69FA-1BBFFABCD69C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

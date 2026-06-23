@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5238DCF1-1771-1183-4B6C-47D1FDC8C864" name="VET_SERVICIOS">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:37:56 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ser_codigo" id="BFB55546-0020-C6DF-9A9B-084AEE93BFC7">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:38:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo del servicio]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ser_nombre" id="D3B31198-25CB-FE3E-B8F2-720DE128D7BD">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:40:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del servicio]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ser_precio" id="5B857A24-D861-C775-D1C5-7184B3175D35">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:40:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Precio del servicio]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ser_IVA" id="15B043FA-97BC-C300-B723-FE7D2013B30E">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:42:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si tiene iva, N si no lo tiene]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ser_estado" id="A0331070-9CE9-4721-A732-E9F3F66A7CF3">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:42:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si esta activo, N si es eliminado o desactivado]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A20C81EC-9609-4CEF-D136-A06FB7C10E27" name="VET_SERVICIOS PK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:40:23 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFB55546-0020-C6DF-9A9B-084AEE93BFC7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VET_CLIENTES_VET_CITAS_FK" directorySegmentName="seg_0" id="3554E291-2510-5B98-18D8-958ABB78A748">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 08:10:50 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<sourcePk>A032A383-9044-0EFD-1860-5C376710F5AB</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>184D790B-EC28-4642-E482-71F871FB532E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>340D1C31-D44E-3A16-8415-07DB190ED973</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

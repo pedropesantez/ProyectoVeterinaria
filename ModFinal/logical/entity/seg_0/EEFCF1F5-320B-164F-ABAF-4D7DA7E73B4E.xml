@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEFCF1F5-320B-164F-ABAF-4D7DA7E73B4E" name="VET_MASCOTAS">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:23:32 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mas_codigo" id="39DAB901-54D6-C33F-DD89-B37980321F9F">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:23:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico de mascota]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mas_nombre" id="060A86DA-0304-B7F1-D55A-38B0EBDB9CB4">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:25:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la mascota]]></commentInRDBMS>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_mas_codigo" id="7B5C9701-ECE8-16CC-5F8C-D30A7E63E672">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:27:42 UTC</createdTime>
+<generatorID>5C1E099C-E123-8069-D57F-1F21F56C5A12</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<referedAttribute>5AC8FB2D-80A9-6099-1F07-2C6E25974D7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_cedula" id="5C1EDA91-49A9-3954-6A46-7D14336CB8E0">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:28:42 UTC</createdTime>
+<generatorID>7E27EA6B-BD5B-5FBD-FD4D-D4A3009E2BA4</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<referedAttribute>8768CB3F-68B1-72AE-FB77-391260B09157</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65AC5228-A08F-093E-1C4E-CFFD278BF716" name="VET_MASCOTAS PK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-23 07:25:07 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<engineerTo>
+<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>39DAB901-54D6-C33F-DD89-B37980321F9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
