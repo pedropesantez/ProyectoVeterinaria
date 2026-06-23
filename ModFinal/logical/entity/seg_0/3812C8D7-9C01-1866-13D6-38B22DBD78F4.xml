@@ -130,21 +130,6 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="us_codigo" id="96FCB6EB-1DB6-40A3-8F1A-92FA4DD2DF68">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-23 08:10:06 UTC</createdTime>
-<generatorID>63E816C0-C979-C9BF-00C1-20E5512B4BEA</generatorID>
-<ownerDesignName>ModFinal</ownerDesignName>
-<engineerTo>
-<item key="DCDF4EB3-9F7E-E34E-DA1C-A07C234CB722" value="true"/>
-</engineerTo>
-<referedAttribute>192C63C0-B169-F156-CCDF-084BC12FF6B5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A12ACE0B-CED5-AD0D-4537-F2FD71A4493B" name="VET_EMPLEADOS PK">

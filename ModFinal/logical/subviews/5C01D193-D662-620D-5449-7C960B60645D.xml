@@ -16,7 +16,7 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="184D790B-EC28-4642-E482-71F871FB532E" otype="Entity" vid="DAF17DE3-AA8A-7572-F301-AC68FB526E4B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="718" y="209" width="170" height="116"/>
+<bounds x="718" y="209" width="170" height="123"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="340D1C31-D44E-3A16-8415-07DB190ED973" otype="Entity" vid="53B141F8-9E02-A0C2-8380-E753D067AD10">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -58,7 +58,7 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="801" y="370" width="39" height="31"/>
+<labelBounds x="801" y="369" width="39" height="31"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
@@ -69,7 +69,7 @@
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
 <points>
-<point x="801" y="325"/>
+<point x="801" y="332"/>
 <point x="801" y="430"/>
 </points>
 </Connector>
@@ -163,13 +163,13 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="803" y="599" width="39" height="31"/>
+<labelBounds x="803" y="591" width="39" height="31"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="803" y="616" width="63" height="31"/>
+<labelBounds x="803" y="608" width="63" height="31"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
@@ -184,7 +184,7 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="1085" y="157" width="39" height="30"/>
+<labelBounds x="1085" y="165" width="39" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>

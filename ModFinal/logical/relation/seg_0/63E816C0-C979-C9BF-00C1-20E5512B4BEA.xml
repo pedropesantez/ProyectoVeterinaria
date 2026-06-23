@@ -11,7 +11,7 @@
 <identifying>false</identifying>
 <nameOnSource>tiene</nameOnSource>
 <nameOnTarget>pertenece</nameOnTarget>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>3812C8D7-9C01-1866-13D6-38B22DBD78F4</sourceEntity>
