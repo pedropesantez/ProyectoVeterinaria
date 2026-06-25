@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2120DE9-9040-935B-DAF4-92FD3B981D79" name="VET_SERVICIOS">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>5238DCF1-1771-1183-4B6C-47D1FDC8C864</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ser_codigo" id="B50E5540-D036-9805-47AF-B57CF814F28E">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo del servicio]]></commentInRDBMS>
+<generatorID>BFB55546-0020-C6DF-9A9B-084AEE93BFC7</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ser_nombre" id="9D114D5F-6C0E-2853-04B3-1B1AD061246F">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del servicio]]></commentInRDBMS>
+<generatorID>D3B31198-25CB-FE3E-B8F2-720DE128D7BD</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ser_precio" id="12DC3E0D-FD73-C2ED-5355-2D45645D8F4D">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Precio del servicio]]></commentInRDBMS>
+<generatorID>5B857A24-D861-C775-D1C5-7184B3175D35</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ser_IVA" id="AD873A22-939B-5DCE-9D29-4ED2EC8B03C2">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si tiene iva, N si no lo tiene]]></commentInRDBMS>
+<generatorID>15B043FA-97BC-C300-B723-FE7D2013B30E</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ser_estado" id="84ABF413-464A-100F-6A45-12B0C74F918B">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si esta activo, N si es eliminado o desactivado]]></commentInRDBMS>
+<generatorID>A0331070-9CE9-4721-A732-E9F3F66A7CF3</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7438A94B-5A06-DF83-80A8-1C818D205354" name="VET_SERVICIOS_PK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>A20C81EC-9609-4CEF-D136-A06FB7C10E27</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B50E5540-D036-9805-47AF-B57CF814F28E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

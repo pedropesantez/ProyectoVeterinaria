@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B90D62D1-1ABF-DFB3-DD7D-F56A3250746C" name="VET_USUARIOS">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>B39E899A-8BE9-7F2F-8B8C-F4FDFF07A0F4</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="us_codigo" id="6329C76C-18CB-BF95-BCA6-26FD5DA9BF06">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo del usuario]]></commentInRDBMS>
+<generatorID>192C63C0-B169-F156-CCDF-084BC12FF6B5</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="us_nombre" id="EFFCCC70-35C8-F859-F346-9428BCEB9FEB">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del usuario]]></commentInRDBMS>
+<generatorID>DB66AA41-351F-7404-4089-43FC0CE4AB95</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="us_contrasena" id="2F927B75-C951-D205-F594-A5523B519159">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contrasenia del usuario]]></commentInRDBMS>
+<generatorID>5E32EE53-2B41-A320-F76C-980DED54E28F</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="us_rol" id="D362604D-21F4-27C0-3F3E-96164988F3B7">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[A por ardministrador o E por empleado]]></commentInRDBMS>
+<generatorID>3DF1F9BA-8F54-A7A6-5E4F-E97BA51563C9</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="us_estado" id="87CB311D-B656-B103-B424-2FD3A0845A23">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[S para activo y N para elmininado o desactivado]]></commentInRDBMS>
+<generatorID>EB6E685A-92F8-F6B6-9F83-46C979E4B3CD</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VET_EMPLEADOS_emp_cedula" id="5E5F5AD4-E242-AE09-B1CB-BBC7A6A4DCD1">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>00FBF1B5-45EB-AA0E-20AA-279008838169</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87A46E6C-4FF1-9959-CDE2-7B1680F87B07" referredColumn="629C0F5A-98CD-B679-8F37-0235B4199854"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FD83209-D95A-9836-2275-DD2B7ACEB0AC" name="VET_USUARIOS_PK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>5FE89C55-10F8-9B18-EC4E-6F2439837E5B</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6329C76C-18CB-BF95-BCA6-26FD5DA9BF06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB2BCE7B-FB79-85DA-368D-716EB630C7D3" name="VET_USUARIOS__IDX">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<ownerDesignName>ModFinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>63E816C0-C979-C9BF-00C1-20E5512B4BEA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5E5F5AD4-E242-AE09-B1CB-BBC7A6A4DCD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F68AC59-D85F-EE12-B8EB-B97E4C91AEA2" name="VET_USUARIOS_VET_EMPLEADOS_FK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>63E816C0-C979-C9BF-00C1-20E5512B4BEA</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E5F5AD4-E242-AE09-B1CB-BBC7A6A4DCD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

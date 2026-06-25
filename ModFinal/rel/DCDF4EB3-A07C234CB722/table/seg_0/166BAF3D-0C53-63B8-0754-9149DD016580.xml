@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="166BAF3D-0C53-63B8-0754-9149DD016580" name="VET_EMPLEADOS">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>3812C8D7-9C01-1866-13D6-38B22DBD78F4</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="emp_cedula" id="629C0F5A-98CD-B679-8F37-0235B4199854">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cedula del empleado]]></commentInRDBMS>
+<generatorID>996A395C-F96C-5E81-69FA-1BBFFABCD69C</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_nombre" id="EAFB45B9-22E9-DE99-629F-82788FDD2469">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[2 Nombres del empleado]]></commentInRDBMS>
+<generatorID>96B5459D-9B72-D7FF-374E-6647A5707D1F</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_apellido" id="EF808802-47BF-CE37-B275-AB885C373BEF">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[2 Apellidos del empleado]]></commentInRDBMS>
+<generatorID>15BE7D1A-CBC7-F8EE-7B18-D59155048369</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_direccion" id="664FF005-C18B-F861-1041-89C3EE19AD2D">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Direccion del empleado]]></commentInRDBMS>
+<generatorID>16451A13-020A-0D64-4E32-98209C3C7C49</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_telefono" id="6B661452-625D-08B7-448E-B26A0B669552">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefono del empleado]]></commentInRDBMS>
+<generatorID>7194E3BF-BCF9-C08C-E77E-B9C08FE95518</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_correo" id="F11742BF-7642-8439-F4E9-1E246A32D49F">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Correo del empleado]]></commentInRDBMS>
+<generatorID>87FE68ED-1336-3CBC-3F43-198DDC3E93B0</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_tipo_empleado" id="BD930709-488C-03CC-F58B-E3F6E17283CB">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[V por veterinario o A por atencion al cliente]]></commentInRDBMS>
+<generatorID>0DC07A0C-55EA-ADF8-6776-2DE884FF73F7</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_estado" id="BB5FC47F-1A78-5A40-963F-305B0C1B423D">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[S para activo o N para eliminado o desactivado]]></commentInRDBMS>
+<generatorID>AA1D64D3-5F10-1C55-51F8-5C7D618586A6</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C35DCA69-7ECA-A657-E9A7-FBA2F2D55975" name="VET_EMPLEADOS_PK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>A12ACE0B-CED5-AD0D-4537-F2FD71A4493B</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="629C0F5A-98CD-B679-8F37-0235B4199854"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

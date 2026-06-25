@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66DCA8F8-B665-D862-6834-E18583234E34" name="VET_CITAS">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>340D1C31-D44E-3A16-8415-07DB190ED973</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cit_codigo" id="A2AE8F12-C2B0-840F-5CD9-FC1E7645827A">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo de la cita]]></commentInRDBMS>
+<generatorID>6DE88339-AEE8-AC58-70FA-E24FB81EB7A0</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cit_fecha" id="18382235-A506-E55E-9EB4-C036C5FCC05C">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha y hora de la cita]]></commentInRDBMS>
+<generatorID>231E74E4-41D5-4E91-D468-DFCABADCD89F</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cit_estado" id="E6F5F950-158A-0223-8491-274D6A413C6A">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[S para activo, N para eliminado o desactivado]]></commentInRDBMS>
+<generatorID>D149046B-D799-0041-580D-B1BEF975B38C</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VET_CLIENTES_cli_cedula" id="79C38514-9453-9397-1A56-E40696B953A0">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>4F995410-F451-9D7F-3825-4BEEBCE8D0B1</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF1FA068-A73D-69CB-C384-300524371693" referredColumn="2646ABB3-9BC0-F98A-849E-59EF29B96853"/>
+</associations>
+</Column>
+<Column name="VET_MASCOTAS_mas_codigo" id="AF512894-0B6B-284D-9A34-1D21012B13A8">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>CE8C1683-1CC8-7688-56E0-2780ECD1B6D1</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFA32B66-A779-5666-AC67-EF0A9EE767A0" referredColumn="37373D5E-329F-0A29-B765-AF24DA03F29F"/>
+</associations>
+</Column>
+<Column name="VET_EMPLEADOS_emp_cedula" id="F8887D2D-393B-422D-E7CC-1E2FDAF57BC4">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>9DBE8DB8-A590-0FF5-A81B-1A28D53DDC0B</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06DDB11C-C7F9-CC86-3E22-45C69CAD35AB" referredColumn="629C0F5A-98CD-B679-8F37-0235B4199854"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42E7E423-9BAA-DECB-2DE6-95AA20B922D0" name="VET_CITAS_PK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>B81DC79A-2A29-4F02-DE3B-3B7E90161FD6</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2AE8F12-C2B0-840F-5CD9-FC1E7645827A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5106500C-79BC-E6B7-5368-01C53E5F212F" name="VET_CITAS_VET_CLIENTES_FK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>3554E291-2510-5B98-18D8-958ABB78A748</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79C38514-9453-9397-1A56-E40696B953A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB03F70F-8536-A8D1-DEC6-8413F5567D9D" name="VET_CITAS_VET_EMPLEADOS_FK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>96148EB6-AC7C-94CA-C5F6-682735268A46</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8887D2D-393B-422D-E7CC-1E2FDAF57BC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62D757FF-AEA8-C37D-74FA-17C39FE37760" name="VET_CITAS_VET_MASCOTAS_FK">
+<createdBy>Raul</createdBy>
+<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<generatorID>708FD141-692B-2DDF-6F68-396A3153CA7C</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF512894-0B6B-284D-9A34-1D21012B13A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
