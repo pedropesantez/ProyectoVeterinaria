@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2120DE9-9040-935B-DAF4-92FD3B981D79" name="VET_SERVICIOS">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE7DBC15-67A4-E2CB-C283-A5BA597BFD59" name="VET_SERVICIOS">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>5238DCF1-1771-1183-4B6C-47D1FDC8C864</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ser_codigo" id="B50E5540-D036-9805-47AF-B57CF814F28E">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="ser_codigo" id="56F5C2C9-1A9F-663C-F45D-24304ECC7168">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Codigo del servicio]]></commentInRDBMS>
 <generatorID>BFB55546-0020-C6DF-9A9B-084AEE93BFC7</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ser_nombre" id="9D114D5F-6C0E-2853-04B3-1B1AD061246F">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="ser_nombre" id="90C3E855-BFB8-2733-836F-DD886AF7BC53">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Nombre del servicio]]></commentInRDBMS>
 <generatorID>D3B31198-25CB-FE3E-B8F2-720DE128D7BD</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ser_precio" id="12DC3E0D-FD73-C2ED-5355-2D45645D8F4D">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="ser_precio" id="C7D44845-5287-3615-3C61-49D4C8ED24CB">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Precio del servicio]]></commentInRDBMS>
 <generatorID>5B857A24-D861-C775-D1C5-7184B3175D35</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -48,9 +48,9 @@
 <ownDataTypeParameters>,8,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ser_IVA" id="AD873A22-939B-5DCE-9D29-4ED2EC8B03C2">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="ser_IVA" id="7BCD3640-1B52-C070-A8A9-6A55062046B6">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[S si tiene iva, N si no lo tiene]]></commentInRDBMS>
 <generatorID>15B043FA-97BC-C300-B723-FE7D2013B30E</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -61,9 +61,9 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ser_estado" id="84ABF413-464A-100F-6A45-12B0C74F918B">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="ser_estado" id="3A35C509-1696-050B-8F58-7CC1E11212F4">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[S si esta activo, N si es eliminado o desactivado]]></commentInRDBMS>
 <generatorID>A0331070-9CE9-4721-A732-E9F3F66A7CF3</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -76,16 +76,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7438A94B-5A06-DF83-80A8-1C818D205354" name="VET_SERVICIOS_PK">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<ind_PK_UK id="23BD2EBF-453C-8ABE-57C9-ACB4A450D961" name="VET_SERVICIOS_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>A20C81EC-9609-4CEF-D136-A06FB7C10E27</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B50E5540-D036-9805-47AF-B57CF814F28E"/>
+<colUsage columnID="56F5C2C9-1A9F-663C-F45D-24304ECC7168"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

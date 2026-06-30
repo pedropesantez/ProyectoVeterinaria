@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F121C84-E223-6C72-9242-512228F724B2" name="VET_CABECERA_FACTURAS">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F19E34B-9320-449B-482D-10DC2383A0B6" name="VET_CABECERA_FACTURAS">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>669D91BB-A92D-3787-3278-573F28FCD26B</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cab_fac_fecha_emision" id="2F26D586-79F2-F32C-3E90-897308792540">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="cab_fac_fecha_emision" id="51653B3A-0901-3C13-874B-7B86934B7CB0">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Fecha y hora de la factura]]></commentInRDBMS>
 <generatorID>9CDBC96E-DB19-51FF-EDB9-18C24D4EB70D</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cab_fac_codigo" id="A9EB2AF7-1DE3-1649-76AD-A232FECBEC01">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="cab_fac_codigo" id="ADF3059B-30A6-DA2D-558D-8F103BD5DD11">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Codigo unico de la factura]]></commentInRDBMS>
 <generatorID>F80BB0A9-D25E-8EC3-72BF-FA40D1481584</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -33,9 +33,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cab_fac_subtotal" id="1F9BEB49-E457-19D8-C05B-2C6A53CD2D5F">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="cab_fac_subtotal" id="C8F9D011-4E6D-1B8E-63E7-B9901BFE810C">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Subtotal antes de los impuestos]]></commentInRDBMS>
 <generatorID>31275892-FA27-38FF-D221-C70E852DA1BC</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -47,9 +47,9 @@
 <ownDataTypeParameters>,8,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cab_fac_total_IVA" id="3C646918-3E8F-E6E8-D042-69DDD12DD1EB">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="cab_fac_total_IVA" id="4099AD90-57C1-7C71-487E-CB4ED0628C8B">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Total de impuestos]]></commentInRDBMS>
 <generatorID>4F59C1C2-36C4-D04B-0429-42A4DF6BA5ED</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -61,9 +61,9 @@
 <ownDataTypeParameters>,8,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cab_fac_total" id="93015B05-CF32-9470-709B-36D80C3B9E07">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="cab_fac_total" id="AB81A86F-2783-7C06-0087-3C53645DA1D4">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Suma total a pagar]]></commentInRDBMS>
 <generatorID>9BAA1976-C5B7-B914-BD35-62105E4E6BFC</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -75,9 +75,9 @@
 <ownDataTypeParameters>,8,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="VET_CLIENTES_cli_cedula" id="3D6F45E5-324C-7C03-90DF-3ACF73650EA3">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="VET_CLIENTES_cli_cedula" id="5A09C5D8-322B-26CF-803A-B381A1256125">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>071D92AE-63D0-341D-4AB1-404B57328956</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -88,12 +88,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="AC04168A-E209-7066-D2D9-F15D582D856B" referredColumn="2646ABB3-9BC0-F98A-849E-59EF29B96853"/>
+<colAssociation fkAssociation="0C3BDEB7-DD28-96ED-7B9F-1F360EF4D836" referredColumn="969F09E0-729C-62EE-5392-2D299DBFCF28"/>
 </associations>
 </Column>
-<Column name="VET_USUARIOS_us_codigo" id="52A6CA8D-7FCF-EE5B-A5CE-F5092211B484">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="VET_USUARIOS_us_codigo" id="4BA9D56C-A6CB-0CB8-F318-4CBFE167F38C">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>83982DFF-68DF-63D7-9D5F-1314AC5F6FC6</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -104,43 +104,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B1476EAC-9C46-ED16-D7BF-53BD074369A8" referredColumn="6329C76C-18CB-BF95-BCA6-26FD5DA9BF06"/>
+<colAssociation fkAssociation="10235DE2-0421-9DB9-7819-9C685327D855" referredColumn="A05C4DB6-AA77-0D1B-D13F-AAC728A9B086"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CDA0009C-1347-7AA8-DC31-B9655BCB2F6E" name="VET_CABECERA_FACTURAS_PK">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<ind_PK_UK id="DC79FA46-DCAD-55C4-7B44-1EA56346EF3E" name="VET_CABECERA_FACTURAS_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>082A70EA-6A0F-6A1A-CBF7-607D1C1A461D</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A9EB2AF7-1DE3-1649-76AD-A232FECBEC01"/>
+<colUsage columnID="ADF3059B-30A6-DA2D-558D-8F103BD5DD11"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="893E35DC-1A10-77AD-CC20-EF86226D755E" name="VET_CABECERA_FACTURAS_VET_USUARIOS_FK">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<ind_PK_UK id="5CCEF946-E0B2-135B-0E3A-822F66B06F71" name="VET_CABECERA_FACTURAS_VET_USUARIOS_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>82E53948-2D9F-2DFF-2665-9DD966E76E0E</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="52A6CA8D-7FCF-EE5B-A5CE-F5092211B484"/>
+<colUsage columnID="4BA9D56C-A6CB-0CB8-F318-4CBFE167F38C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A33E8E30-6344-7C1B-218A-6C5016B7DBE9" name="VET_CABECERA_FACTURAS_VET_CLIENTES_FK">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<ind_PK_UK id="F4EC72F1-B0CB-39C0-8E69-F3C0DC77C6C3" name="VET_CABECERA_FACTURAS_VET_CLIENTES_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>1C51C932-3CC8-8993-8466-A280967A8D63</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3D6F45E5-324C-7C03-90DF-3ACF73650EA3"/>
+<colUsage columnID="5A09C5D8-322B-26CF-803A-B381A1256125"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

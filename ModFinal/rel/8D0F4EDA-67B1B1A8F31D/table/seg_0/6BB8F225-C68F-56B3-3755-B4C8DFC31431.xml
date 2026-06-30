@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF67AD80-19A2-B5A0-1F62-11A48748F8CC" name="VET_MASCOTAS">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BB8F225-C68F-56B3-3755-B4C8DFC31431" name="VET_MASCOTAS">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>EEFCF1F5-320B-164F-ABAF-4D7DA7E73B4E</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="mas_codigo" id="37373D5E-329F-0A29-B765-AF24DA03F29F">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="mas_codigo" id="0CC14572-2C32-386F-DDB3-8577D82BE942">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Codigo unico de mascota]]></commentInRDBMS>
 <generatorID>39DAB901-54D6-C33F-DD89-B37980321F9F</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="mas_nombre" id="D642704F-E76B-5FD8-2BFD-0F4373CBBB1D">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="mas_nombre" id="001688E4-9D4A-F7DE-883B-8FC104BC360E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Nombre de la mascota]]></commentInRDBMS>
 <generatorID>060A86DA-0304-B7F1-D55A-38B0EBDB9CB4</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="VET_TIPO_MASCOTAS_tip_mas_codigo" id="F2D6610E-B1B5-956B-7F51-6778A027EED0">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="VET_TIPO_MASCOTAS_tip_mas_codigo" id="DD42E8DD-EABA-FB10-CCA8-F01EE1A8B9DF">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>7B5C9701-ECE8-16CC-5F8C-D30A7E63E672</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,12 +47,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="67F35B7E-553B-0894-99AF-C33D7117AE42" referredColumn="F76EF280-0108-FB97-7EB8-A924FCAD81D2"/>
+<colAssociation fkAssociation="C68EA7FA-2C1A-5063-E584-B787B6433C5B" referredColumn="D3DDFAEC-3793-4CE9-65B1-74E30825267E"/>
 </associations>
 </Column>
-<Column name="VET_CLIENTES_cli_cedula" id="8AAB64A0-9001-80FB-A46C-2E39DD7CAC90">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="VET_CLIENTES_cli_cedula" id="79A4A516-5EEA-B853-E411-AA082BB926DC">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>5C1EDA91-49A9-3954-6A46-7D14336CB8E0</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -63,43 +63,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C1308463-4B48-CFBC-4F73-DA4805933241" referredColumn="2646ABB3-9BC0-F98A-849E-59EF29B96853"/>
+<colAssociation fkAssociation="377632A8-50D0-0F2A-3528-7FF830DD00A0" referredColumn="969F09E0-729C-62EE-5392-2D299DBFCF28"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="ED68700C-8E94-CFE3-4496-B7574F266CC4" name="VET_MASCOTAS_PK">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<ind_PK_UK id="713E6421-4533-151B-F23B-EE64E8A8B419" name="VET_MASCOTAS_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>65AC5228-A08F-093E-1C4E-CFFD278BF716</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="37373D5E-329F-0A29-B765-AF24DA03F29F"/>
+<colUsage columnID="0CC14572-2C32-386F-DDB3-8577D82BE942"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7797EF69-3D61-5E31-326C-04AB3864C1E7" name="VET_MASCOTAS_VET_CLIENTES_FK">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<ind_PK_UK id="7A4D5B8D-AF6E-5707-E253-95ED3A02CB23" name="VET_MASCOTAS_VET_CLIENTES_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>7E27EA6B-BD5B-5FBD-FD4D-D4A3009E2BA4</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8AAB64A0-9001-80FB-A46C-2E39DD7CAC90"/>
+<colUsage columnID="79A4A516-5EEA-B853-E411-AA082BB926DC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7C14F5B0-A621-CCFF-5D9E-6252039875B0" name="VET_MASCOTAS_VET_TIPO_MASCOTAS_FK">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<ind_PK_UK id="401064C9-5EFA-FEC0-1ED8-1ECA07EFF310" name="VET_MASCOTAS_VET_TIPO_MASCOTAS_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>5C1E099C-E123-8069-D57F-1F21F56C5A12</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F2D6610E-B1B5-956B-7F51-6778A027EED0"/>
+<colUsage columnID="DD42E8DD-EABA-FB10-CCA8-F01EE1A8B9DF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

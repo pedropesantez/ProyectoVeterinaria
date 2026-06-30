@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C68EA7FA-2C1A-5063-E584-B787B6433C5B" containerWithKeyObject="6BB8F225-C68F-56B3-3755-B4C8DFC31431" localFKIndex="401064C9-5EFA-FEC0-1ED8-1ECA07EFF310" name="VET_MASCOTAS_VET_TIPO_MASCOTAS_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
+<generatorID>5C1E099C-E123-8069-D57F-1F21F56C5A12</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<referredTableLongName>VET_TIPO_MASCOTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE5C1865-BF7E-0A11-C942-C8BC3475634D</referredTableID>
+<keyObject>0055E6D6-384D-5322-B4D5-0687C149BB37</keyObject>
+<referredKeyID>0055E6D6-384D-5322-B4D5-0687C149BB37</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tip_mas_codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

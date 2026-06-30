@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2B3BE54B-1420-FB14-5E18-096BF223F9BE" containerWithKeyObject="8DEE2317-7451-69D4-F111-83814B3E903F" localFKIndex="EEA8D140-FC79-2E93-E4B5-DD3E052CA0FC" name="VET_CITAS_VET_EMPLEADOS_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
+<generatorID>96148EB6-AC7C-94CA-C5F6-682735268A46</generatorID>
+<ownerDesignName>ModFinal</ownerDesignName>
+<referredTableLongName>VET_EMPLEADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4CBC9001-2B13-C96E-96C3-7C50C18E5A02</referredTableID>
+<keyObject>D5D978A3-CE58-81FF-98C1-969E9CF272C3</keyObject>
+<referredKeyID>D5D978A3-CE58-81FF-98C1-969E9CF272C3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>emp_cedula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

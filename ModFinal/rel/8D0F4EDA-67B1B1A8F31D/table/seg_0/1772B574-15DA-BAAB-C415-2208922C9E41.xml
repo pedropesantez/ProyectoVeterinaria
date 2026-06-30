@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B90D62D1-1ABF-DFB3-DD7D-F56A3250746C" name="VET_USUARIOS">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1772B574-15DA-BAAB-C415-2208922C9E41" name="VET_USUARIOS">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>B39E899A-8BE9-7F2F-8B8C-F4FDFF07A0F4</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="us_codigo" id="6329C76C-18CB-BF95-BCA6-26FD5DA9BF06">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="us_codigo" id="A05C4DB6-AA77-0D1B-D13F-AAC728A9B086">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Codigo del usuario]]></commentInRDBMS>
 <generatorID>192C63C0-B169-F156-CCDF-084BC12FF6B5</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="us_nombre" id="EFFCCC70-35C8-F859-F346-9428BCEB9FEB">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="us_nombre" id="6F0CBAF3-6C2F-B8E4-9DDE-0C780231BFAA">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Nombre del usuario]]></commentInRDBMS>
 <generatorID>DB66AA41-351F-7404-4089-43FC0CE4AB95</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="us_contrasena" id="2F927B75-C951-D205-F594-A5523B519159">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="us_contrasena" id="FBB6C558-9E2C-0728-FB9B-35247675EC70">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Contrasenia del usuario]]></commentInRDBMS>
 <generatorID>5E32EE53-2B41-A320-F76C-980DED54E28F</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -47,9 +47,9 @@
 <ownDataTypeParameters>250,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="us_rol" id="D362604D-21F4-27C0-3F3E-96164988F3B7">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="us_rol" id="970C09D8-3F06-075F-D855-7DD75E1DDF09">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[A por ardministrador o E por empleado]]></commentInRDBMS>
 <generatorID>3DF1F9BA-8F54-A7A6-5E4F-E97BA51563C9</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -60,9 +60,9 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="us_estado" id="87CB311D-B656-B103-B424-2FD3A0845A23">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="us_estado" id="A1AAFA61-E063-00FE-12A4-79AC8594D75B">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[S para activo y N para elmininado o desactivado]]></commentInRDBMS>
 <generatorID>EB6E685A-92F8-F6B6-9F83-46C979E4B3CD</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -73,9 +73,9 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="VET_EMPLEADOS_emp_cedula" id="5E5F5AD4-E242-AE09-B1CB-BBC7A6A4DCD1">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="VET_EMPLEADOS_emp_cedula" id="8ED791D3-E808-2756-F393-BB014AA556B1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>00FBF1B5-45EB-AA0E-20AA-279008838169</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -86,43 +86,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="87A46E6C-4FF1-9959-CDE2-7B1680F87B07" referredColumn="629C0F5A-98CD-B679-8F37-0235B4199854"/>
+<colAssociation fkAssociation="67D9618C-9504-2ECE-949C-E015DCB873E6" referredColumn="436D89F0-A1ED-E0CA-ECDB-57BF4D045FC0"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8FD83209-D95A-9836-2275-DD2B7ACEB0AC" name="VET_USUARIOS_PK">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<ind_PK_UK id="34B4FFBC-B61C-C776-DD60-8C06FDF9C678" name="VET_USUARIOS_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>5FE89C55-10F8-9B18-EC4E-6F2439837E5B</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6329C76C-18CB-BF95-BCA6-26FD5DA9BF06"/>
+<colUsage columnID="A05C4DB6-AA77-0D1B-D13F-AAC728A9B086"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CB2BCE7B-FB79-85DA-368D-716EB630C7D3" name="VET_USUARIOS__IDX">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<ind_PK_UK id="C6E0CFED-0BD4-3897-B4CF-67D42B47B8A7" name="VET_USUARIOS__IDX">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <ownerDesignName>ModFinal</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>63E816C0-C979-C9BF-00C1-20E5512B4BEA</relationGeneratorID>
 <indexColumnUsage>
-<colUsage columnID="5E5F5AD4-E242-AE09-B1CB-BBC7A6A4DCD1"/>
+<colUsage columnID="8ED791D3-E808-2756-F393-BB014AA556B1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3F68AC59-D85F-EE12-B8EB-B97E4C91AEA2" name="VET_USUARIOS_VET_EMPLEADOS_FK">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<ind_PK_UK id="BBA53D8F-4629-F605-0F90-985066ED5826" name="VET_USUARIOS_VET_EMPLEADOS_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>63E816C0-C979-C9BF-00C1-20E5512B4BEA</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5E5F5AD4-E242-AE09-B1CB-BBC7A6A4DCD1"/>
+<colUsage columnID="8ED791D3-E808-2756-F393-BB014AA556B1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

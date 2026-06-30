@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1735E990-01DB-A459-2612-78097189B6B3" name="VET_CLIENTES">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="403A4081-8B56-80C3-80EF-975D18A16BA4" name="VET_CLIENTES">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>184D790B-EC28-4642-E482-71F871FB532E</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cli_cedula" id="2646ABB3-9BC0-F98A-849E-59EF29B96853">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="cli_cedula" id="969F09E0-729C-62EE-5392-2D299DBFCF28">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Cedula del cliente]]></commentInRDBMS>
 <generatorID>8768CB3F-68B1-72AE-FB77-391260B09157</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cli_nombre" id="55DFA757-2C47-8761-BA04-1CC2F9FCD335">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="cli_nombre" id="6D02F9CD-4B8D-E9DA-7DE8-328E7BAC0BF8">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[2 Nombres del cliente]]></commentInRDBMS>
 <generatorID>B85BBB6A-79C0-4A2E-A18E-535CD7B14C7F</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cli_apellido" id="D3AEAB37-1E0D-990F-B4AA-0E6FB9501B01">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="cli_apellido" id="7AF81A90-EDBD-B112-64B7-1522486E7883">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[2 Apellidos del cliente]]></commentInRDBMS>
 <generatorID>93D52E57-DD42-2114-6570-A5C1185E307F</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -47,13 +47,12 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cli_direccion" id="18088FC1-D099-7821-2FC4-79E00773DAAA">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="cli_direccion" id="404BCB77-8953-D666-D6F7-F755EDFD2247">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Direccion del cliente]]></commentInRDBMS>
 <generatorID>01CADF65-F075-FA88-0B51-B97DA3ED11AE</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -61,13 +60,12 @@
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cli_telefono" id="0734C345-C2CA-0F53-E570-8E2C9547611A">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="cli_telefono" id="DE08B952-BF42-F90E-43BB-51E11E90CA37">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Telefono del cliente]]></commentInRDBMS>
 <generatorID>A685361E-6499-BFFD-9E25-A3421419E0D6</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -75,13 +73,12 @@
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cli_correo" id="2B987B19-9DE2-9D27-0510-1093933EAAE7">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="cli_correo" id="E311AD5C-94AB-FEAC-CA51-48CC39DC8DAD">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Correo electronico del cliente]]></commentInRDBMS>
 <generatorID>AFA438A9-88F8-9BE1-AECD-0C0F2F1995F5</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -89,9 +86,9 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cli_estado" id="FFE4B3FD-973D-CDE0-D9BB-12B335E4E0C8">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="cli_estado" id="855F811C-D9CE-6348-61F0-F0AB779EA2BC">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[S si es activo, N si es eliminado o desactivado]]></commentInRDBMS>
 <generatorID>BE1C2EAF-99F9-B45C-556C-C63973682144</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -104,16 +101,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D8989A69-939B-A5E6-DE9A-A2A47A11B422" name="VET_CLIENTES_PK">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<ind_PK_UK id="9DD1ED6C-F503-0436-8671-97ED6C176E12" name="VET_CLIENTES_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>A032A383-9044-0EFD-1860-5C376710F5AB</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2646ABB3-9BC0-F98A-849E-59EF29B96853"/>
+<colUsage columnID="969F09E0-729C-62EE-5392-2D299DBFCF28"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96974445-419A-8A79-0704-716E97358F33" name="VET_TIPO_MASCOTAS">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE5C1865-BF7E-0A11-C942-C8BC3475634D" name="VET_TIPO_MASCOTAS">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>5C9ED59D-748C-4632-5202-98A53AFAC431</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="tip_mas_codigo" id="F76EF280-0108-FB97-7EB8-A924FCAD81D2">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="tip_mas_codigo" id="D3DDFAEC-3793-4CE9-65B1-74E30825267E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Codigo unico del tipo de mascota]]></commentInRDBMS>
 <generatorID>5AC8FB2D-80A9-6099-1F07-2C6E25974D7F</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tip_mas_nombre" id="5032CD0D-32B5-EB07-50E7-F9DB3A6FD189">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<Column name="tip_mas_nombre" id="ECDA29DE-B871-B7B1-416F-CE94B28D66CA">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Nombre del tipo de mascota (Gato, perro, etc)]]></commentInRDBMS>
 <generatorID>F2F4809F-4F0E-768B-7613-B82A0B8145EB</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
@@ -36,16 +36,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DFAAAE66-918E-8E54-4369-062CFB461219" name="VET_TIPO_MASCOTAS_PK">
-<createdBy>Raul</createdBy>
-<createdTime>2026-06-25 05:07:59 UTC</createdTime>
+<ind_PK_UK id="0055E6D6-384D-5322-B4D5-0687C149BB37" name="VET_TIPO_MASCOTAS_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-06-30 01:58:17 UTC</createdTime>
 <generatorID>4E75C458-02BB-C9F1-4B44-E487018FF03D</generatorID>
 <ownerDesignName>ModFinal</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F76EF280-0108-FB97-7EB8-A924FCAD81D2"/>
+<colUsage columnID="D3DDFAEC-3793-4CE9-65B1-74E30825267E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
